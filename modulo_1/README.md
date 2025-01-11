@@ -1,6 +1,6 @@
 # 1° Modulo
 
-- Pasta das diciplinas do primeiro módulo de DS 
+Pasta das diciplinas do primeiro módulo de DS 
 
 # Disciplinas: 
 
