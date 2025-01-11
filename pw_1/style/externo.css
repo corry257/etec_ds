@@ -1,0 +1,42 @@
+/* Estilo Nome do restaurante */
+ h1{
+  color: white; 
+  background-color: black;
+  font-size: 6rem;
+}
+
+/* Estilo slogan */
+h2 {
+  color: rgb(8, 8, 8);
+  font-size: 2rem;
+}
+
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilo dos links */
+a:link {
+  color: #f5f5f7; /* Cor do link não visitado */
+}
+
+a:visited {
+  color: #f4f3f7; /* Cor do link visitado */
+}
+
+a:hover {
+  color: #92192d; /* Cor do link ao passar o mouse */
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+a:active {
+  color: #1a1818; /* Cor do link enquanto está sendo clicado */
+}
+
+table, th, td
+{
+  border: 1px solid rgb(238, 7, 7);
+}
