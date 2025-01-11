@@ -1,0 +1,340 @@
+
+Um carro está trafegndo numa estrada. Existem algumas obras no Km3, uma curva perigosa no KM 4, 
+uma escola no Km 6. Organize as placas de transito abaixo numa lista na sequebnciua em que o motirista irá encontra-las em seu trajeto. 
+
+
+Placas: 
+Km 5  
+
+Curva poerigosa a 200m 
+
+Curva perigosa 
+
+Escola 
+
+Km 1 
+
+Obras 
+
+Km 2 
+
+Resolução: 
+
+Km 1, Km 2, Km 3 - Obras, Curva poerigosa a 200m, Km 4 - Curva perigosa, Km 5, Km 6 - Escola 
+
+
+Você precisa sacar dinheiro no banco (caixa). Organize a lista seguinte para atingir esse objetivo: 
+
+Sair do banco;
+Aguardar a vez;
+Entrar na fila;
+Informar o valor a retirar e digitar a senha; 
+Pegar o comprovante do saque, cartão e dinheiro; 
+Entregar o cartão ao caixa.
+
+Resolução: 
+
+Entrar na fila
+Agurdar a vez;
+Entregar o cartão ao caixa;
+Informar o valor ao caixa;
+Pegar o comprovante do saque, cartão e dinheiro;
+Sair do banco.
+
+
+Você está atrasado para a aula do Carmago Aranha. Para tentar chegar no horário 
+
+Entrar no prédio do Camargo aranha;
+Sair do carro;
+Acessar aplicativo;
+confirmar o serviço;
+Informar o destino desejado;
+Esperar o carro;
+Pagar ao motorista;
+Encaminhar-se à sala de aula;
+Entrar no carro.
+
+Resolução:
+Acessar aplicativo;
+Informar o destino desejado;
+Confirmar serviço;
+Esperar o carro;
+Entrar no carro;
+Pagar o motorista;
+Sair do carro;
+Entrar no prédio do Carmargo Aranha;
+Caminhar-se à sala de aula.
+
+Criar um algoritmo, o que você faz para chegar no Camargo Aranha. 
+resolução: 
+
+Tomar banho;
+vestir-se; 
+pegar bilhete único;
+colocar nos bolsos;
+pegar a mochila;
+Colocar a mochila nas costas; 
+Sair de casa;
+Ir até o ponto de ônibus;
+esperar o ônibus;
+entrar no ônibus;
+sair do ônibus;
+caminhar até o ponto do segundo ônibus;
+esperar o próximo ônibus;
+entrar no sergundo ônibus;
+sair do ônibus;
+ir até o prédio doi Camargo aranha;
+Entrar no prédio do Camargo Aanha;
+ir até a sala de aula. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notepad++ v8.1.5 new features, enhancements & bug-fixes:
+
+1.  Make Insert date time customizable.
+2.  Make date time order reversible for short & long format.
+3.  Add Insert Date/Time commands shortcut & macro capacities.
+4.  Fix regression: no error message when locked file could not be saved - Show file locked warning now.
+5.  Make "Confirm Save All" dialog more clear: use "Always Yes" button instead of "Cancel".
+6.  Improve JSON, PHP, PYTHON, CSS, BANNC and VHDL syntax highlighting in dark mode.
+7.  Fix inconsistency of Document List context menu.
+8.  Enable/disable ext column via Document list context menu directly.
+9.  Add path column in Document list panel.
+10. Allow custom color for Document Map.
+11. Fix docked/float panels in RTL layout issue.
+12. Fix CSS pseudo-elements not recognized issue. Update CSS keywords and add new styles.
+13. Fix issue that current directory not been applied after changing current directory option in preferences.
+14. Sort Default language combobox of "New Document" section in Preferences. 
+
+
+
+More fixes & implementations detail:
+https://notepad-plus-plus.org/downloads/v8.1.5/
+
+
+Included plugins:
+
+1.  NppExport v0.3
+2.  Converter v4.3
+3.  Mime Tool v2.6
+
+
+Updater (Installer only):
+
+* WinGup (for Notepad++) v5.2
