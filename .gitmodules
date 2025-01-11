@@ -1,9 +1,0 @@
-[submodule "bd_1"]
-	path = bd_1
-	url = https://github.com/Corry257/bd_1.git
-[submodule "pa_1"]
-	path = pa_1
-	url = https://github.com/Corry257/pa_1.git
-[submodule "pw_1"]
-	path = pw_1
-	url = https://github.com/Corry257/pw_1.git
