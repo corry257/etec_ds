@@ -1,6 +1,6 @@
 # 2° Modulo
 
-Pasta das diciplinas do primeiro módulo de DS
+Pasta das diciplinas do segundo módulo de DS
 
 # Disciplinas:
 
