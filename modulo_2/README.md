@@ -4,4 +4,5 @@ Pasta das diciplinas do segundo módulo de DS
 
 # Disciplinas:
 
-- Programação de Aplicativos Mobile I;
+- Análise e Projeto de Sistemas;
+- Programação de Aplicativos Mobile I.
