@@ -21,10 +21,7 @@ Desenvolvimento de apps mobile
 - Arquiteturas e plataformas de mercado;
 - Modelos de desenvolvimento:
      * Nativo multiplataforma - React Native. 
-
-- Hibrido: 
-     * App inventor 
-
+     * Hibrido - App inventor 
 - Lojas de aplicativos.
 
 Conceitos do modelo e plataforma de desenvolvimento 
