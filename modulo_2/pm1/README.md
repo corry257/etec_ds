@@ -10,17 +10,17 @@ Aula de apresentação da disciplina, o professor abriu a ementa do curso no dat
 
 # Habilidades 
 
-- Codificar aplicativos para dispositivos móveris; 
+- Codificar aplicativos para dispositivos móveis; 
 - Utilizar ambientes de desenolvimento de software mobile;
-- Construir interface gráfica parta aplicatrivos mobile;
-- Utilizar recursos de aparelhos celulares e tablçets. 
+- Construir interface gráfica para aplicativos mobile;
+- Utilizar recursos de aparelhos celulares e tablets. 
 
 # Bases tecnológicas
 Desenvolvimento de apps mobile
 
-- Arquiteturas e plataformas de mercado:
-- Modelos de desenvolvimento: 
-      * Nativo multiplataforma - React Native. 
+- Arquiteturas e plataformas de mercado;
+- Modelos de desenvolvimento:
+     * Nativo multiplataforma - React Native. 
 
 - Hibrido: 
      * App inventor 
@@ -29,7 +29,7 @@ Desenvolvimento de apps mobile
 
 Conceitos do modelo e plataforma de desenvolvimento 
 
-- Filosofia e arquitetura;
+- Filosofia de arquitetura;
 - Fundamentos da plataforma;
 - Ciclo de vida e processo de desenvolvimento;
 - Ferraments (SDK, IDE/CLI, emuladores entre outros.);
@@ -38,8 +38,8 @@ Conceitos do modelo e plataforma de desenvolvimento
 Interface com o usuário 
 
 - Layouts e estlização;
-- Componentes: 
-    * Texto, botões, imagens, listas, componenetes para entrada de dados. 
+- Componentes:
+     * Texto, botões, imagens, listas, componenetes para entrada de dados. 
 - Splash, diálogos e notificações;
 - Navegação e roteamento. 
 
