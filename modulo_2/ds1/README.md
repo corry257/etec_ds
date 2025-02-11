@@ -35,7 +35,7 @@ Primeira aula de Desenvolvimento de sistemas com o professor Juarez Brandão, as
   * texto
 
 
-Em seguida o professor apresentou conceitos básicos sobre classes e e objetos e passou uma atividade para casa que consiste em pesquisar sobre UML no contexto de orientação a objetos. 
+Em seguida o professor apresentou conceitos básicos sobre modelos de classes e passou uma atividade para casa que consiste em pesquisar sobre UML no contexto de orientação a objetos. 
 
 **Classes e Objetos**
 
@@ -45,11 +45,10 @@ Todo modelo de classe precisa ter um nome e caracteristicas que são denominadas
 
 Ex: Modelo de Classe 
 
-|  Nome      | pinciel                                                     |
-|------------|-------------------------------------------------------------|
-|  Atributos | formato: str, cor: string, espessura:float, textura: string.|
-|------------|-------------------------------------------------------------|
-|  métodos   | Pintar(), escrever(); desenhar(); grifar(), mover().        |
+|  **Nome**    | pincel                                                      |
+|--------------|-------------------------------------------------------------|
+| **Atributos**| formato: str, cor: string, espessura:float, textura: string.|
+| **métodos**  | Pintar(), escrever(); desenhar(); grifar(), mover().        |
 
 - Atividade para casa: pesquisar UML - Orientação a objetos 
 
@@ -62,8 +61,6 @@ Fazer modelos de classes levando em conta o que foi apresentado anteriormente co
 - Celular
 - pet 
 - conta de banco 
-
-**Modelo de Classes**
 
 Abaixo estão os modelos de classes que representam os objetos do mundo real, com seus respectivos atributos e métodos.
 
