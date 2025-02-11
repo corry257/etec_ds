@@ -54,7 +54,7 @@ Ex: Modelo de Classe
 
 **Atividade em sala de aula**
 
-Fazer modelos de classes levando em conta o que foi apresentado anteriormente com os seguintes objetos.
+Fazer modelos de classes levando em conta o que foi apresentado anteriormente com os seguintes objetos para um cadastro de loja.
 
 - Geladeira
 - automóvel
@@ -64,11 +64,19 @@ Fazer modelos de classes levando em conta o que foi apresentado anteriormente co
 
 Abaixo estão os modelos de classes que representam os objetos do mundo real, com seus respectivos atributos e métodos.
 
-|  **Classe**      | **Atributos**                                                            | **Métodos**                              |
-|------------------|--------------------------------------------------------------------------|------------------------------------------|
-|  **Geladeira**   | marca: str, cor: str, capacidade: float, tipo: str                       | ligar(), desligar(), ajustarTemperatura()|
-|  **Automóvel**   | marca: str, modelo: str, ano: int, cor: str, motor: str                  | ligar(), desligar(), acelerar(), frear() |
-|  **Celular**     | modelo: str, marca: str, cor: str, sistemaOperacional: str, bateria: int | ligar(), desligar(), enviarMensagem()    |
-|  **Pet**         | nome: str, especie: str, idade: int, cor: str                            | alimentar(), brincar(), dormir()         |
-|**Conta de Banco**| numero: int, saldo: float, titular: str, agencia: int                    | depositar(), sacar(), consultarSaldo()   |
+|  **Classe**      | **Atributos**                                                      | **Métodos**                              |
+|------------------|--------------------------------------------------------------------|------------------------------------------|
+|  **Geladeira**   | marca: str, cor: str, capacidade: float, tipo: str, voltagem: float| cadastrar(), alterar(), deletar(), filtrar(), vender()|
+|  **Automóvel**   | marca: str, modelo: str, ano: int, cor: str, motor: str | cadastrar(), alterar(), deletar(), vender(), filtrar, pesquisar() |
+|  **Celular**     | modelo: str, marca: str, cor: str, sistemaOperacional: str, bateria: float| Cadastrar(), alterar(), deletar(), vender(), filtrar(), pesquisar()|
+|  **Pet**         | nome: str, especie: str, raça: str, idade: int, pelagem: str, cor: str   | cadastrar(), alterar(), deletar(), doar()     |
+|**Conta de Banco**| nome: str, n°banco: int, numero: int, saldo: float, tipo: str, agencia: int, limite: float|cadastrar(), alterar(), deletar(), consultar()|
+
+Agora vamos montar um modelo de classe para um videogame com os seguinte objeto: 
+
+- pet
+
+|**Classe**| **Atributos**                                                           | **Métodos**|
+|----------|-------------------------------------------------------------------------|------------|
+|**Pet**   | nome: str, genero: str, espécie: str, raça: str, idade: int, cor: str   |            |
 
