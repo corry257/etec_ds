@@ -10,7 +10,7 @@ eCHO "teste 3 <br>";
 
 // É case sensitive
 
-$nome = "Felipe";
+$nome = "Alan";
 
 $NOME = "TESTE";
 
