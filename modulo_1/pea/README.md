@@ -1,6 +1,59 @@
 # pa-alan-ribeiro
 Repositório para aulas de programação e algoritmos 
 
+# introdução 
+- texto. 
+
+# O que é localhost
+- É a gorma de acessart o **servidor local da nosssa máquina**;
+- Equivale ao IP **127.0.0.1**, ou seja, nosso PC;
+- - Assim podemos simular como se o site ou arquivo que estamos acessando é **processado em um servidor**;
+  - IP siginbifica internet Protocol;
+
+# Sintaxe do PHP 
+- O PHP vai interpretar um bloco de código em nosso arquivo apenas se ele estiber **entre as tags de PHP**;
+- A abertura é: **<?php**
+- E o fechamento: **?>**
+- Coloque **;** a cada instrução;
+- Todo o código dentro destas tags será executado pelo PHP, e após isso será impresso na tela;
+
+# Exercício 1
+- Crie um arquivo PHP;
+- Estte arquivo deve ter uma instrução que imprima seu nome;
+- Execute o arquivo.
+
+# PHP e suas dependências
+- Podemos checar como o PHP e suas dependências estão instaladas no nosso computador;
+- O nome da função é **phpinfo()**;
+- Ela exibe versões também dos pacotes intalados
+- util para saber como o servidor está configurado.
+
+# Case sensitivy 
+- Significa sensibilidade a casas maísculas e minúsculas;
+- Para **instruções PHP não temos essa diferença**, ou seja: echo = ECHO;
+- Porém para **variáveis são casa sensitive**.
+- ou seja, $nome != $NOME;
+- Obs: veremos variáveis em detalhes mais adiante;
+
+# Instruções de código
+- As instruões simples de PHP são **separadas por ponto e vírgula**;
+- Instruções simples são instruções de uma linha;
+- Quando há uma **instrução maior**, como de condição ou repetição, a definição da mesma é dada por **abertura e fechgamento de chaves**;
+- Nestes casos **não precisaremos** de ponto e vírgula.
+
+# Palavras reservadas
+- Algumas palavras são **resevadas da linguagem** e já tem suas funcuionalidades definifdias, então não podemos utulizar em nosso programas;
+- Pois caso fosse possível **poderiamos substituir** a sua função original;
+- **Alguns exemplos são**: echo, insteadof, else, interface, namespace, pow, _DIR_, _FILE_, endif, print, private, protected, and, require, public, as, break, case, for, finally, switch
+
+# Tipos de dados
+**Inteiros (integers)**
+- Os inteiro são os níum,eros inteiro da matématica, como: 1
+
+**Checando número inteiro**
+- Podemos validar se um dado é inteiro com a função **is_int()**;
+- Caso um níumero seja inteiro, será retornado true
+- caso não seja, receberemos um retorno false 
 
 # Arrays (conjunto, lista)
 - O Array é um tipo d dado que serve para agrupar um conjunto de valores;
