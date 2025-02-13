@@ -1,18 +1,15 @@
 <?php 
 
-echo 5;
-echo "<br>";
-echo 5 + 7;
-echo "<br>";
-echo 7;
-echo "<br>";
-echo -12;
-echo "<br>";
-echo 5 - 12;
+if(is_int(5)) { //True
+  echo "É um inteiro <br>";
+              }
+if(is_int("Não é um inteiro")) { //False
+  echo "Não é um inteiro 2 <br>";
 
-$n = 5;
+$a = 10;
 
-echo "<br>";
-echo $n; 
+if(is_int($a)) { //true
+  echo "É um inteiro 3 <br>";
+}
 
 ?>
