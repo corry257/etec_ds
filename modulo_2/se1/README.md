@@ -51,3 +51,9 @@ entradas que a professora explicou do arduíno uno
 - entrada GND na parte superior da placa: diz respeito a aterramento
 - na parte inferior mais a esquerda tem a parte de energia com entradas de voltage, 
 - Mais a direita ainda na parte inferior a placa possui uma parte de entradas analógica 
+
+Aula 02 - 18/02/2025 
+
+A professora levou a turma para o laboratório de hardware, nesta sala tiha muitos componentes de um computador além de uma impressora 3D. 
+
+A professora distribuiu placa mãe para a turma e explicou componente por componente. 
