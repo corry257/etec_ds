@@ -332,136 +332,123 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
     
          }
 
-**instanciação de um objeto**
+**Instanciação de um objeto**
 
-criando uma instancia
+**criando uma instancia**
 
-Vamos criar as 4 operações como um primeiro projeto
+ - Vamos criar uma operações de soma como um primeiro projeto
 
-Abra um novo arquivo com o nome de Soma e escreva isso: 
+ - Crie um novo arquivo dentro da pasta ***MeuPrimeiroProjeto*** com o nome de Soma.java e escreva isso: 
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package meuprimeiroprojeto;
+        /*
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+         */
+        package meuprimeiroprojeto;
 
-/**
- *
- * @author Aluno CA
- */
-public class Soma {
+        /**
+         *
+         * @author Aluno CA
+         */
+        public class Soma {
         
-    public Integer calcula(int a, int b) {
-        int resultado = a + b;
-        return resultado;
-    }
-}
+            public Integer calcula(int a, int b) {
+             int resultado = a + b;
+             return resultado;
+            }
+        }
 
-Faça o mesmo para as outras operações mudando apenas a operação veja como fica para subtração, multiplicação e divisão a seguir: 
+ - Agora faça o mesmo para as outras operações mudando apenas a operação matemática na linha do resultado
 
-Subtração: 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package meuprimeiroprojeto;
+ - Ao final do processo você terá 4 arquivos de nome Soma.java, Subtracao.java, Multiplicacao.java e Divisao.java, dentro destes arquivos o código deverá ser semelhante a estes a seguir: 
 
-/**
- *
- * @author Aluno CA
- */
-public class Soma {
+ - **SOMA**
+        /*
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+         */
+        package meuprimeiroprojeto;
+
+        /**
+         *
+         * @author Aluno CA
+         */
+        public class Soma {
         
-    public Integer calcula(int a, int b) {
-        int resultado = a - b;
-        return resultado;
-    }
-}
+            public Integer calcula(int a, int b) {
+             int resultado = a + b;
+             return resultado;
+            }
+        }
 
+ - **SUBTRACAO**
+        /*
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+         */
+        package meuprimeiroprojeto;
 
-Multiplicação: 
+        /**
+         *
+         * @author Aluno CA
+         */
+        public class Subtracao {
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package meuprimeiroprojeto;
+            public Integer calcula(int a, int b) {
+             int resultado = a - b;
+             return resultado;
+            }
+        }
 
-/**
- *
- * @author Aluno CA
- */
-public class Soma {
+ - **MULTIPLICACAO**
+        /*
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+         */
+        package meuprimeiroprojeto;
+
+        /**
+         *
+         * @author Aluno CA
+         */
+        public class Soma {
         
-    public Integer calcula(int a, int b) {
-        int resultado = a * b;
-        return resultado;
-    }
-}
+            public Integer calcula(int a, int b) {
+             int resultado = a * b;
+             return resultado;
+            }
+        }
 
-Divisão: 
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package meuprimeiroprojeto;
+ - **DIVISAO**
+        /*
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+         */
+        package meuprimeiroprojeto;
 
-/**
- *
- * @author Aluno CA
- */
-public class Soma {
+        /**
+         *
+         * @author Aluno CA
+         */
+        public class Divisao {
         
-    public Integer calcula(int a, int b) {
-        int resultado = a / b;
-        return resultado;
-    }
-}
+            public Integer calcula(int a, int b) {
+             int resultado = a / b;
+             return resultado;
+            }
+        }
 
-Agora volte para MeuPrimeiroProjeto.java
-
-e escreva: 
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package meuprimeiroprojeto;
-
-/**
- *
- * @author Aluno CA
- */
-public class MeuPrimeiroProjeto {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        Soma s = new Soma();
-        
-        Subtracao p = new Subtracao();
-        
-        Multiplicacao m = new Multiplicacao();
-        
-        Divisao d = new Divisao();
-         System.out.println(s.calcula(10, 5));
-         System.out.println(p.calcula(21, 5));
-         System.out.println(m.calcula(6, 3));
-         System.out.println(d.calcula(25, 5));
-         
-    }
-    
-}
+ - Execute o código e veja se deu certo :) 
 
 
-Execute o código e veja se deu certo :) 
+ - **Atividade:** 
 
+- Criar uma nova classe dentro do mesmo projeto com o nome de *calculadora*, com o atributo *resutado do tipo inteiro* e métodos: *Soma(a,b), Divisao(a,b), Multiplicacao(a,b), Subtracao(a,b).*
 
-Atividade: 
+| Nome     | Calculadora                                               |
+|----------|-----------------------------------------------------------|
+| Atributo |resultado: int                                             |
+| Métodos  |Soma(a,b), divisao(a,b), multiplicacao(a,b), subtracao(a,b)|
 
-Criar uma nova classe com o nome de calculadora com o atributo resutado do tipo inteiro e métodos Soma(a,b), Divisao(a,b), Multiplicacao(a,b), Subtracao(a,b).
 
