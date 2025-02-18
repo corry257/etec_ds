@@ -299,38 +299,38 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
 
  - Dentro deste arquivo Copie este código a seguir: 
             
-     /*
-     * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-     * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
-     */
-    package meuprimeiroprojeto;
+         /*
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+         */
+        package meuprimeiroprojeto;
 
-     /**
-     *
-     * @author Aluno CA
-     */
-    public class MeuPrimeiroProjeto {
+         /**
+         *
+         * @author Aluno CA
+         */
+        public class MeuPrimeiroProjeto {
 
-     /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        Soma s = new Soma();
+         /**
+         * @param args the command line arguments
+         */
+            public static void main(String[] args) {
+            // TODO code application logic here
+            Soma s = new Soma();
         
-        Subtracao p = new Subtracao();
+            Subtracao p = new Subtracao();
         
-        Multiplicacao m = new Multiplicacao();
+            Multiplicacao m = new Multiplicacao();
         
-        Divisao d = new Divisao();
-         System.out.println(s.calcula(10, 5));
-         System.out.println(p.calcula(21, 5));
-         System.out.println(m.calcula(6, 3));
-         System.out.println(d.calcula(25, 5));
+            Divisao d = new Divisao();
+             System.out.println(s.calcula(10, 5));
+             System.out.println(p.calcula(21, 5));
+             System.out.println(m.calcula(6, 3));
+             System.out.println(d.calcula(25, 5));
          
-     }
+             }
     
- }
+         }
 
 **instanciação de um objeto**
 
