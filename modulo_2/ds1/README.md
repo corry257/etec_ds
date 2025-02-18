@@ -88,47 +88,51 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
 
  Na primira parte da aula o professor aprofundou mais os conceitos passados na aula anterior de manira teórica com slides e explicações 
   
-  ***Notas da aula***
-  **Cenário de desenvolvimento**
-
-  **CENÁRIO ESTRUTURAL** - Foco principal nas funções depois nos dados, informações desagupadas. 
-
+  ***Notas da aula***  
+  **__Cenário de desenvolvimento__**  
+  
+  **CENÁRIO ESTRUTURAL** - Foco principal nas funções depois nos dados, informações desagupadas.  
+  
  As ideias e necessidades dos usuários normalmente não ficam claras. 
-     - Quais são suas necessidades para o sistema? 
+   - Quais são suas necessidades para o sistema? 
 
-     - Precio de um sistema que cotrole todas as vendas dos meus produtos. 
+   - Precio de um sistema que cotrole todas as vendas dos meus produtos. 
 
  Probelmas
-     - Excesso de documentação ou nenhuma 
-     - cronograma apertado, prazos estourados, dificuldade de reaproveitamento de código 
-     - cliente insatisfeito 
-     - horas infindáveis de manutenção corretiva 
-     - custo elevado do projeto 
-
- **CENÁRIO ORIENTAÇÃO A OBJETO** - Foco principal nos objetos do mundo real, com suas funções e dados agrupados.
+     - Excesso de documentação ou nenhuma  
+     
+     - cronograma apertado, prazos estourados, dificuldade de reaproveitamento de código  
+     
+     - cliente insatisfeito  
+     
+     - horas infindáveis de manutenção corretiva  
+     
+     - custo elevado do projeto  
+     
+ **CENÁRIO ORIENTAÇÃO A OBJETO** - Foco principal nos objetos do mundo real, com suas funções e dados agrupados.  
  
  Deve-se fazer o levantamento de requisitos já pensando nos objetos do mundo real. 
 
- Facilita o entendimento por parte do programador das necessidades do usuário 
-     - O que vamos controlar? 
-
-     - Nossos carros 
-
- Vantagens 
-     - Diminuição do tempo e custo de desenvolvimento 
-     - Atendimento da demanda gerada pela evolução tecnológica 
-     - Reutilização de código, facilidade de manutenção 
-
+ Facilita o entendimento por parte do programador das necessidades do usuário  
+ 
+  - O que vamos controlar?
+  - Nossos carros
+  
+  Vantagens 
+    - Diminuição do tempo e custo de desenvolvimento  
+    - Atendimento da demanda gerada pela evolução tecnológica  
+    - Reutilização de código, facilidade de manutenção  
+    
 **História da orientação a objeto**
 
- 1967: Simula - introduoz os primeiros conceitos de OO 
- 1972: Smalltalk
- 1980: C++ linguagem hibrida, derivada da linguagem C 
- 1983: Ada criada para uso militar nos EUA
- 1984: Eliffel primeiras características formais de oo 
- 1986: Ibject pascal 
- 1995: JAVA - Linguagem puramente orientada a objetos
- 1995: Várias linguagens agregando conceitos de OO 
+ 1967: Simula - introduoz os primeiros conceitos de OO  
+ 1972: Smalltalk  
+ 1980: C++ linguagem hibrida, derivada da linguagem C  
+ 1983: Ada criada para uso militar nos EUA  
+ 1984: Eliffel primeiras características formais de oo  
+ 1986: Ibject pascal  
+ 1995: JAVA - Linguagem puramente orientada a objetos  
+ 1995: Várias linguagens agregando conceitos de OO  
 
 
 **Simula**
@@ -291,13 +295,13 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
  - Caso queira criar seus projetos em JAVA no VSCode siga os passos abaixo, se for usar o **** pule esta etapa e vá direto para a próxima etapa
  
  **Criando projetos em JAVA no VSCode**
- - Com o VSCode aberto vá em extensões e digite Java, procure por **Extension Pack for Java**, normalmente é o primeiro resultado a aparecer, essa extenção é um pacote com várrias extenções que vão te auxiliar na programação em JAVA no VSCode 
+ - Com o VSCode aberto vá em extensões e digite Java, procure por **Extension Pack for Java**, normalmente é o primeiro resultado que aparece, essa extenção é um pacote com várrias extenções que vão te auxiliar na programação em JAVA no VSCode 
 
  - Agora crie uma nova pasta no seu ambiente de trabalho com o nome: ***MeuPrimeiroProjeto***, você pode criar em qualquer local do seu computador (Desktop, Documents, etc...), como estou documentando tudo no github eu criei uma pasta de nome github onde salvo todos os meus projetos
 
  - Crie dentro desta pasta um novo arquivo (new file) de nome: ***MeuPrimeiroProjeto.java***
 
- - Dentro deste arquivo Copie este código a seguir: 
+ - Dentro deste arquivo digite código a seguir: 
             
          /*
          * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -332,25 +336,25 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
     
          }
 
-**Instanciação de um objeto**
+__**Instanciação de um objeto**__
 
 **criando uma instancia**
 
- - Vamos criar uma operações de soma como um primeiro projeto
+ - Vamos criar uma operação de soma como um primeiro projeto
 
- - Crie um novo arquivo dentro da pasta ***MeuPrimeiroProjeto*** com o nome de Soma.java e escreva isso: 
+ - Crie um novo arquivo dentro da pasta ***MeuPrimeiroProjeto*** com o nome de ***Soma.java*** e escreva isso: 
 
-        /*
+         /*
          * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
          * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
          */
-        package meuprimeiroprojeto;
+         package meuprimeiroprojeto;
 
-        /**
+         /**
          *
          * @author Aluno CA
          */
-        public class Soma {
+         public class Soma {
         
             public Integer calcula(int a, int b) {
              int resultado = a + b;
@@ -360,20 +364,20 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
 
  - Agora faça o mesmo para as outras operações mudando apenas a operação matemática na linha do resultado
 
- - Ao final do processo você terá 4 arquivos de nome Soma.java, Subtracao.java, Multiplicacao.java e Divisao.java, dentro destes arquivos o código deverá ser semelhante a estes a seguir: 
+ - Ao final do processo você terá 4 arquivos de nomes ***Soma.java, Subtracao.java, Multiplicacao.java e Divisao.java***, dentro destes arquivos o código deverá ser semelhante a estes a seguir: 
 
  - **SOMA**
-        /*
+         /*
          * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
          * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
          */
-        package meuprimeiroprojeto;
+         package meuprimeiroprojeto;
 
-        /**
+         /**
          *
          * @author Aluno CA
          */
-        public class Soma {
+         public class Soma {
         
             public Integer calcula(int a, int b) {
              int resultado = a + b;
@@ -382,17 +386,17 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
         }
 
  - **SUBTRACAO**
-        /*
+         /*
          * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
          * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
          */
-        package meuprimeiroprojeto;
+         package meuprimeiroprojeto;
 
-        /**
+         /**
          *
          * @author Aluno CA
          */
-        public class Subtracao {
+         public class Subtracao {
 
             public Integer calcula(int a, int b) {
              int resultado = a - b;
@@ -401,17 +405,17 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
         }
 
  - **MULTIPLICACAO**
-        /*
+         /*
          * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
          * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
          */
-        package meuprimeiroprojeto;
+         package meuprimeiroprojeto;
 
-        /**
+         /**
          *
          * @author Aluno CA
          */
-        public class Soma {
+         public class Soma {
         
             public Integer calcula(int a, int b) {
              int resultado = a * b;
@@ -421,17 +425,17 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
 
 
  - **DIVISAO**
-        /*
+         /*
          * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
          * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
          */
-        package meuprimeiroprojeto;
+         package meuprimeiroprojeto;
 
-        /**
+         /**
          *
          * @author Aluno CA
          */
-        public class Divisao {
+         public class Divisao {
         
             public Integer calcula(int a, int b) {
              int resultado = a / b;
@@ -444,7 +448,7 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
 
  - **Atividade:** 
 
-- Criar uma nova classe dentro do mesmo projeto com o nome de *calculadora*, com o atributo *resutado do tipo inteiro* e métodos: *Soma(a,b), Divisao(a,b), Multiplicacao(a,b), Subtracao(a,b).*
+- Criar uma nova classe dentro do mesmo projeto com o nome de *calculadora*, com o atributo *resutado do tipo inteiro* e com os métodos a seguir: *Soma(a,b), Divisao(a,b), Multiplicacao(a,b), Subtracao(a,b).*
 
 | Nome     | Calculadora                                               |
 |----------|-----------------------------------------------------------|
