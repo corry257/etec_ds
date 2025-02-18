@@ -242,7 +242,7 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
      * Entidade conceitual: um organograma de uma empresa 
      * Entidade de software: um botão em uma interface gráfica (GUI)
 
- -O objeto é uma entidade capaz de reter um estado (inforamação/atributos/propriedades) que oferece uma série de operações (comportamentos/métodos) ou para examinar ou para afetar este estado 
+ - O objeto é uma entidade capaz de reter um estado (inforamação/atributos/propriedades) que oferece uma série de operações (comportamentos/métodos) ou para examinar ou para afetar este estado 
 
  - Um objeto é um conceito, uma abstração, com limites e significados nítidos em relação ao dominio de uma aplicação 
 
@@ -297,63 +297,32 @@ Agora vamos montar um modelo de classe para um videogame com os seguinte objeto:
  **Criando projetos em JAVA no VSCode**
  - Com o VSCode aberto vá em extensões e digite Java, procure por **Extension Pack for Java**, normalmente é o primeiro resultado que aparece, essa extenção é um pacote com várrias extenções que vão te auxiliar na programação em JAVA no VSCode 
 
- - Agora crie uma nova pasta no seu ambiente de trabalho com o nome: ***MeuPrimeiroProjeto***, você pode criar em qualquer local do seu computador (Desktop, Documents, etc...), como estou documentando tudo no github eu criei uma pasta de nome github onde salvo todos os meus projetos
-
- - Crie dentro desta pasta um novo arquivo (new file) de nome: ***MeuPrimeiroProjeto.java***
-
- - Dentro deste arquivo digite código a seguir: 
+ - Com o comando **CTRL + SHIFT + P** abrirá uma aba de pesquisa na parte suérior do VSCode, digite Java e procure por **Create New Project JAVA** dê o nome do projeto de **MeuPrimeiroProjeto**, o VSCode criará uma pasta com com três subpastas, são estas:  
+ - .vscode
+ - lib
+ - src  
+   
+ - Dentro da pasta src existirá um arquivo de nome ***App.java***
+ é um arquivo equivalente aos arquivos index de PHP e Html, é a pasta principal do projeto. O arquivo de texto dentro dela deverá estar semelhante a este código abaixo:  
             
-         /*
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
-         */
-        package meuprimeiroprojeto;
-
-         /**
-         *
-         * @author Aluno CA
-         */
-        public class MeuPrimeiroProjeto {
-
-         /**
-         * @param args the command line arguments
-         */
-            public static void main(String[] args) {
-            // TODO code application logic here
-            Soma s = new Soma();
-        
-            Subtracao p = new Subtracao();
-        
-            Multiplicacao m = new Multiplicacao();
-        
-            Divisao d = new Divisao();
-             System.out.println(s.calcula(10, 5));
-             System.out.println(p.calcula(21, 5));
-             System.out.println(m.calcula(6, 3));
-             System.out.println(d.calcula(25, 5));
-         
-             }
-    
+         public class App {
+            public static void main(String[] args) throws Exception {
+            System.out.println("Hello, World!");
+            }
          }
+
+ - Caso você execute este código acima ele imprimirá no console a mensagem a seguir:  
+
+         Hello, World!
 
 __**Instanciação de um objeto**__
 
 **criando uma instancia**
 
- - Vamos criar uma operação de soma como um primeiro projeto
+ - Vamos criar uma operação de soma como um primeiro projeto, para isso precisamos criar uma classe de nome soma, dentro dessa classe não vamos por atributos, mas vamos por métodos para que a operação seja aplicada.
 
- - Crie um novo arquivo dentro da pasta ***MeuPrimeiroProjeto*** com o nome de ***Soma.java*** e escreva isso: 
+ - Crie um novo arquivo dentro da pasta ***src*** com o nome de ***Soma.java*** e escreva isso: 
 
-         /*
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-         */
-         package meuprimeiroprojeto;
-
-         /**
-         *
-         * @author Aluno CA
-         */
          public class Soma {
         
             public Integer calcula(int a, int b) {
@@ -362,21 +331,38 @@ __**Instanciação de um objeto**__
             }
         }
 
- - Agora faça o mesmo para as outras operações mudando apenas a operação matemática na linha do resultado
+ - Perceba que a linha de código *public class soma {}* cria uma classe com o nome de soma
+
+ - Dentro do colchetes é criado o método calcula, ele é do tipo inteiro e recebe duas variáveis a e b. A entre colchetes será dado uma função para o método a função possue uma variável do tipo inteiro de nome resultado, esse resultado receberá os valores a somado com b e deverá retornar o próprio resultado
+
+ - Pronto, está criada a operação, agora retorne para o arquivo ***App.java***, dentro deste arquivo vamos puxar aquela operação que criamos no arquivo Soma.java para o arquivo App.java, este processo é chamado de instanciação, veja o código abaixo: 
+
+         public class App {
+         public static void main(String[] args) throws Exception {
+         Soma s = new Soma();
+            }
+         } 
+
+ - dê o comando de impressão, no Java o comando é: 
+
+          System.out.println()
+
+ - Dentro do parentese você deve escrever *s.calcula*   
+
+ - Se tudo correu bem, você terá um código semelhante a este: 
+
+         public class App {
+         public static void main(String[] args) throws Exception {
+         Soma s = new Soma();
+         System.out.println(s.calcula(10, 5));
+           } 
+         }
+
+ - Agora faça o mesmo procedimento para as outras operações mudando apenas a operação matemática na linha do resultado
 
  - Ao final do processo você terá 4 arquivos de nomes ***Soma.java, Subtracao.java, Multiplicacao.java e Divisao.java***, dentro destes arquivos o código deverá ser semelhante a estes a seguir: 
 
  - **SOMA**
-         /*
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-         */
-         package meuprimeiroprojeto;
-
-         /**
-         *
-         * @author Aluno CA
-         */
          public class Soma {
         
             public Integer calcula(int a, int b) {
@@ -386,16 +372,6 @@ __**Instanciação de um objeto**__
         }
 
  - **SUBTRACAO**
-         /*
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-         */
-         package meuprimeiroprojeto;
-
-         /**
-         *
-         * @author Aluno CA
-         */
          public class Subtracao {
 
             public Integer calcula(int a, int b) {
@@ -405,16 +381,6 @@ __**Instanciação de um objeto**__
         }
 
  - **MULTIPLICACAO**
-         /*
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-         */
-         package meuprimeiroprojeto;
-
-         /**
-         *
-         * @author Aluno CA
-         */
          public class Soma {
         
             public Integer calcula(int a, int b) {
@@ -425,16 +391,6 @@ __**Instanciação de um objeto**__
 
 
  - **DIVISAO**
-         /*
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-         */
-         package meuprimeiroprojeto;
-
-         /**
-         *
-         * @author Aluno CA
-         */
          public class Divisao {
         
             public Integer calcula(int a, int b) {
@@ -443,16 +399,77 @@ __**Instanciação de um objeto**__
             }
         }
 
- - Execute o código e veja se deu certo :) 
+ - Execute o código no arquivo ***App.java*** e veja se deu certo
 
+ - Meu código final ficou assim: 
 
- - **Atividade:** 
+         public class App {
+         public static void main(String[] args) throws Exception {
 
-- Criar uma nova classe dentro do mesmo projeto com o nome de *calculadora*, com o atributo *resutado do tipo inteiro* e com os métodos a seguir: *Soma(a,b), Divisao(a,b), Multiplicacao(a,b), Subtracao(a,b).*
+         Soma s = new Soma();
+         Subtracao i = new Subtracao();
+         Multiplicacao m = new Multiplicacao();
+         Divisao d = new Divisao();
+   
+         System.out.println(s.calcula(10, 5));
+         System.out.println(i.calcula(10, 05));
+         System.out.println(m.calcula(3, 7 ));
+         System.out.println(d.calcula(30, 05));
+           } 
+         }
+    
+
+ **Atividade:** 
+
+- Criar uma nova classe dentro do mesmo projeto com o nome de *calculadora*, com o atributo *resutado de tipo inteiro* e com os métodos a seguir: *Soma(a,b), Divisao(a,b), Multiplicacao(a,b), Subtracao(a,b).*
 
 | Nome     | Calculadora                                               |
 |----------|-----------------------------------------------------------|
 | Atributo |resultado: int                                             |
 | Métodos  |Soma(a,b), divisao(a,b), multiplicacao(a,b), subtracao(a,b)|
+
+ ***resultado da atividade***
+
+ - Criei um novo arquivo com o nome de ***Calculadora.java***, dentro deste arquivo escrevi o seguinte código: 
+
+
+         public class Calculadora{
+            
+               public Integer resultado; 
+    
+         Integer soma(int a, int b ) {
+         int resultado = a + b;
+          return resultado;  
+         }
+     
+         public Integer divisao(int a, int b) {
+          int resultado = a / b;
+         return resultado;
+         }
+    
+         public Integer multiplicacao(int a, int b) {
+         int resultado = a * b;
+         return resultado;
+         }
+    
+         public Integer subtracao(int a, int b) {
+         int resultado = a - b;
+         return resultado;
+         }
+     
+     
+         }
+
+ - E o arquivo ***App.java*** ficou assim:             
+            
+             public class App {
+             public static void main(String[] args) throws Exception {
+
+             Calculadora c = new Calculadora();
+
+             System.out.println(c.divisao(10, 2));
+
+             }
+         }
 
 
