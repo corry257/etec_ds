@@ -12,9 +12,11 @@ git remote set-url origin git@github-corry257:corry257/etec_ds.git
 echo "Verificando as configurações de remote..."
 git remote -v
 
-# Faz o pull do repositório remoto
-echo "Fazendo pull do repositório..."
-git pull
+# Faz pull com rebase para evitar conflitos
+git pull --rebase origin main
+
+# Exibe o status do repositório para verificar mudanças locais
+git status
 
 # Mensagem final
 echo "Configuração concluída!"
