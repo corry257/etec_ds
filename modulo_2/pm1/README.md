@@ -43,3 +43,7 @@ Aula de apresentação da disciplina, o professor abriu a ementa do curso no dat
   - Armazenamento de dados offline. 
 
 
+# Aula 02 - 20/02/2025
+
+Nesta aula o professor disponibilizou uma apostila que ensinava como fazer uma calculadora para android no site appinventor, ao fim da aula consegui finalizar a calculadora e baixar o apk para rodar no celular, no meu caso rodei em um emulador chamado bluestacks. 
+
