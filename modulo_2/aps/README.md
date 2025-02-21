@@ -14,3 +14,11 @@ Nesta primeira aula tivemos uma conversa com o professor Davi Vilar onde ele apr
 - Elencar métodos tradicionais e ágeis adequados a um projeto de software;
 - Aplicar técnicas SCRUM en orojetos de software.  
 
+
+# Aula 02 - 14/02/2025
+
+ - Texto
+
+# Aula 03 - 21/02/2025
+
+- 
