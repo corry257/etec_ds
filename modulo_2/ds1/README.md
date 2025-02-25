@@ -469,7 +469,84 @@ __**Instanciação de um objeto**__
 
              System.out.println(c.divisao(10, 2));
 
-             }
+            }
          }
 
 
+# Aula 03 - 24/02/2025
+O professor Juarez corrigiu os exercicios da aula passada e mostrou comandos de Java que serão demonstrados logo abaixo:  
+
+**Linguagem java**
+
+ - Exibição em tela
+
+      //Declaração da classe principal 
+      public class EtecJava 
+    {
+      Método principal estático do tipo de caractere 
+      public static void main (String[]args)
+    {
+      //Exibe o resultado na tela do computdor 
+      System.out.print("Bem vindo ao mundo Java");
+
+      //Sai da aplicação e descarrega a memória
+      System.exit(0);
+    }
+
+ - Operadores Aritméticos
+
+       public class EtecJava
+        { public static void main (string[]args)
+          { int A = 1, B = 8, C = 4, D = 5, F = 2;
+            double R;
+            R = A + B - C * D / F;
+            System.out.println("Resposta:"+R);
+            System.exit(0);
+           }
+        }
+
+ - Operadores de Comparação 
+       public class EtecJava
+        { public static void main (string[]args)
+          { int A = 1, B = 8, C = 4, D = 5, F = 2;
+            boolean R;
+            R = A + B - C * D / F >= 5;
+            System.out.println("Resposta:"+R);
+            System.exit(0);
+           }
+        }
+
+  - Operadores Lógicos 
+       public class EtecJava
+        { public static void main (string[]args)
+          { int A = 1, B = 8, C = 4, D = 5, F = 2;
+            boolean R;
+            R = (A >= 5) && (B <= 4);
+            System.out.println("Resposta:"+R);
+            System.exit(0);
+           }
+        }
+
+ - Estrutura de decisão: SWITCH / CASE 
+        public class EtecJava
+        { public static void main (string[]args)
+          { String st = "INFORME UM NUMERO ENTRE 1 E 2";
+            st = JOptionPane.showInputDialog(null,st);
+            //Conversão de string para inteiro
+            int mes = Integer.parseInt(st);
+            switch (mes)
+            { case 1:
+            st = "PAGAMENTO EM DIA";
+            break;
+            case 2:
+            st = "PAGAMENTO ATRASADO";
+            break;
+            default:
+            st = "DIA INVÁLIDO";
+            JOptionPane.showMessageDialog(null,st,"ERRO",0);
+            System.exit(0);
+            st = "VOCÊ ESCOLHEU O MÊS DE "+st;
+            JOptionPane.showMessageDialog(null,st,"MENSAGEM",1);
+            System.exit(0);
+           }
+        }
