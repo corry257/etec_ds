@@ -565,7 +565,7 @@ Diferente desta menções,
 Menção Inválida
 
 - Como meu código ficou:  
-        ``java
+        
             package projetomencao;
 
             import javax.swing.JOptionPane;
@@ -619,8 +619,8 @@ Menção Inválida
             // Caso a entrada não seja um número válido
             JOptionPane.showMessageDialog(null, "Por favor, insira um número válido!", "ERRO", JOptionPane.ERROR_MESSAGE);
             System.exit(0);
+          }
         }
-    }
-}
+      }
 
-  ``
+
