@@ -92,3 +92,31 @@ O megaómio (MΩ) é equivalente a um milhão de ómios.
 Ligamos uns cabos no arduino virtual na plataforma tinkercad 
 
 - *especificar o que fizemos em detalhes pesteriormente 
+
+# Aula 04 - 11/03/2025
+
+- Eesistores em sistemas embarcados 
+Uma visão geral sobre resistroees, componestres cruci3ia em nanana
+
+- Definição: Resistores limitam o fluxo sw xoeewnrw, Eles são com0pontes passivos 
+- Unidade: a resistencia é media em Ohms (Omega) essa unidade qualifica a oposilão ao fluxo elétrico.
+- a diferença deles é feita pela cor, cada cor aguenta um tipo de carga 
+
+Funcionamento da Resistencia 
+
+1 nColisões de eletrons: eletrons coloidem com atomos no marerial, o que fera resistencia. 
+2 Oposição à Corrente: a RESISTENCIA ELETRIOCA É A CAPACIDADE DE UINM MATERIL OPOR-SE À passagem de corrente elétrica. 
+3 Impacto na voltagem: QUanto maior a resistencia, menor a corrente para uma dada voltagem.
+
+Calculo da resistencia 
+
+Lei de Ohm 
+Use a Lei de Ohm para encontrar a resistr4ncia R= V / I. 
+
+Tensão 
+V é a tensão (volts)
+
+Corrente 
+I é a corrente 
+
+
