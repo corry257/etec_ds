@@ -102,3 +102,40 @@ Ao fim da aula o professor passou um questionário de avaliação
  7) Qual a diferença entre informação e dado?
 
  8) Como funciona a transação em SQL?
+
+    # Aula 02 - 11/03/2025
+
+    - Rodando o MySql
+   
+    - Como fazer comentários no mysql
+      #para comentário em uma linha
+      /*Para comentários com multiplas linhas e depois fecha com*/
+
+- meu script ficou assim:
+        #conjuntos ddl
+        #sintaxe - CREATE DATABASE <nome do banco de dados>; (Cria banco de dados)
+        CREATE DATABASE teste;
+        #sintaxe - USE <nome do banco de dados>; (entra no banco de dado)
+        USE teste;
+        CREATE table cadastro(
+        idfunc int not null primary key,
+        nome varchar(50) not null,
+        depto char(2) not null,
+        funcao char(20),
+        filhos int,
+        salario decimal(10,2)
+        );
+        #sintaxe - desc <nome da tabela>; (Verifica a estrutura da tabela)
+        desc cadastro;
+      
+# Exercício:
+ Somos uma empresa de treinamento que Ministra vários cursos de caráter técnico.
+
+Nossos cursos devem ser identificados por um código, nome, preço e devem ter também uma duração que pode variar entre 5 dias, 10 noites ou 4 sábados.
+
+Cada um de nossos instrutores estão certificados para ministrarem vários cursos, a cada semana um instrutor poderá estar alocado para um ou mais de um curso contanto que não sejam no mesmo período, para isso necessitamos armazenar um cadastro de instrutores que nos informe além de dados pessoais (código, nome, endereço e telefone), quais são os módulos que cada instrutor é certificado.
+
+Nosso departamento de confirmação entra em contato com os nossos clientes (alunos), para confirmarem suas participações nos cursos, para tanto é necessário que mantenhamos um cadastro de alunos que guarde informações pessoais (código, nome, endereço e telefone) e também quais os cursos que o aluno já fez.   
+
+- Como ficou meu script:
+  
