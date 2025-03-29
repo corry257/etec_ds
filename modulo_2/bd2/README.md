@@ -1,4 +1,4 @@
-Aula 01 - 18/02/025
+# Aula 01 - 18/02/025
 
  O Professor Marcio se apresentou e falou sobre a base tecnológica da disciplina  
 
@@ -87,18 +87,205 @@ Ao fim da aula o professor passou um questionário de avaliação
 
 **questionário** 
 
- 1) Pesquisar sobre os bancos de dados: SQLServer, SQLlite, Oracle, MySql e PostgreSql.(histórico)
+ **1) Pesquisar sobre os bancos de dados: SQLServer, SQLlite, Oracle, MySql e PostgreSql.(histórico)**  
+ R: SQL Server: 
+O Microsoft SQL Server foi lançado em 1989, inicialmente como uma parceria entre a Microsoft, Sybase e Ashton-Tate. Com o tempo, a Microsoft assumiu totalmente o desenvolvimento e transformou o SQL Server em um dos sistemas de gerenciamento de banco de dados (SGBD) mais utilizados no mundo, especialmente no ambiente corporativo. Ele oferece suporte a grandes volumes de dados e é amplamente utilizado em aplicações empresariais.  
 
- 2) Como um banco de dados relacional armazena seus dados?
+SQLite: 
+Criado em 2000 por D. Richard Hipp, o SQLite foi desenvolvido como um banco de dados relacional leve, embutido e sem necessidade de servidor. Ele é amplamente utilizado em dispositivos móveis, navegadores e sistemas embarcados devido à sua simplicidade e eficiência no armazenamento de dados.  
 
- 3) Defina campo, registro, tabela e banco de dados
+Oracle: 
+Lançado em 1979 pela Oracle Corporation, o banco de dados Oracle foi um dos primeiros a adotar o modelo relacional. Ele se destacou por seu alto desempenho, segurança e escalabilidade, sendo utilizado por grandes corporações e instituições financeiras. É conhecido por suas versões empresariais robustas.  
 
- 4) O que é um banco Hierárquico e em Rede?
+MySQL: 
+Criado em 1995 por Michael Widenius e David Axmark, o MySQL é um dos bancos de dados de código aberto mais populares do mundo. Inicialmente desenvolvido pela MySQL AB, foi adquirido pela Sun Microsystems em 2008 e, posteriormente, pela Oracle Corporation em 2010. Ele é amplamente utilizado em aplicações web e é a base de dados de sistemas como WordPress, Joomla e outros.  
 
- 5) Quais são os subconjuntos que compõem o SQL?
+PostgreSQL: 
+O PostgreSQL teve sua origem no projeto Ingres, da Universidade da Califórnia, Berkeley, na década de 1980. Em 1996, o sistema foi renomeado para PostgreSQL e tornou-se um banco de dados relacional avançado de código aberto, conhecido por sua conformidade com padrões SQL e suporte a extensões.  
 
- 6) Qual a geração da linguagem SQL? Explique.
+ **2) Como um banco de dados relacional armazena seus dados?**  
+ R: Um banco de dados relacional armazena os dados em tabelas, que são compostas por linhas (registros) e colunas (campos). Cada tabela representa uma entidade e é organizada por chaves primárias e estrangeiras para estabelecer relacionamentos entre os dados. Esse modelo permite consultas eficientes e garante integridade referencial entre os elementos do banco.  
 
- 7) Qual a diferença entre informação e dado?
+ **3) Defina campo, registro, tabela e banco de dados**  
+ R: Campo: Representa a menor unidade de dados em um banco relacional. Equivale a uma coluna de uma tabela e armazena valores de um tipo específico, como texto, números ou datas.  
 
- 8) Como funciona a transação em SQL?
+Registro: Também chamado de tupla, é uma linha dentro de uma tabela. Ele contém um conjunto de valores organizados em campos.  
+
+Tabela: Estrutura composta por registros e campos que organizam os dados de forma estruturada. Cada tabela armazena informações sobre uma entidade específica.  
+
+Banco de Dados: Conjunto estruturado de tabelas inter-relacionadas, gerenciado por um sistema de gerenciamento de banco de dados (SGBD), como SQL Server, MySQL, ou Oracle.  
+
+ **4) O que é um banco Hierárquico e em Rede?**  
+ R: Banco Hierárquico:  
+Utiliza uma estrutura em árvore, onde cada registro tem um único pai e pode ter vários filhos. Esse modelo foi muito usado em sistemas legados e mainframes, como o IBM Information Management System (IMS).  
+
+Banco em Rede:  
+Evolução do modelo hierárquico, permite que um registro tenha múltiplos pais, formando uma estrutura mais flexível e complexa. O modelo de banco de dados em rede foi padronizado pelo CODASYL e permite melhor representação de relações entre dados.  
+
+ **5) Quais são os subconjuntos que compõem o SQL?**  
+ R: DDL (Data Definition Language – Linguagem de Definição de Dados):  
+Define a estrutura do banco de dados. Comandos: CREATE, ALTER, DROP, TRUNCATE.  
+
+DML (Data Manipulation Language – Linguagem de Manipulação de Dados):  
+Permite inserir, modificar e excluir dados. Comandos: INSERT, UPDATE, DELETE, SELECT.  
+
+DCL (Data Control Language – Linguagem de Controle de Dados):  
+Controla permissões e segurança dos usuários. Comandos: GRANT, REVOKE.  
+
+TCL (Transaction Control Language – Linguagem de Controle de Transação):  
+Gerencia transações no banco de dados. Comandos: COMMIT, ROLLBACK, SAVEPOINT.  
+
+ **6) Qual a geração da linguagem SQL? Explique.**  
+ R: O SQL é considerado uma linguagem de quarta geração (4GL). Isso significa que ele é voltado para a manipulação de dados em alto nível, permitindo que os usuários descrevam o que desejam consultar, em vez de programar como a busca deve ser feita. Diferente das linguagens de terceira geração (3GL), como C ou Java, o SQL é declarativo e facilita operações sobre bancos de dados relacionais.
+
+ **7) Qual a diferença entre informação e dado?**  
+ 
+R: Dado: Representação bruta de um fato, sem interpretação ou contexto. Exemplo: "25".  
+
+Informação: Quando os dados são organizados e interpretados, gerando significado. Exemplo: "A temperatura atual é 25°C".  
+
+Os dados, quando processados, tornam-se informação útil para tomada de decisões.  
+
+ **8) Como funciona a transação em SQL?**  
+ R: Uma transação em SQL é um conjunto de operações que devem ser executadas de forma atômica para garantir a integridade dos dados. O conceito é baseado nas propriedades ACID:  
+
+Atomicidade (Atomicity): A transação deve ser concluída por inteiro ou não ser realizada. Se uma parte falha, tudo é desfeito.  
+
+Consistência (Consistency): O banco de dados deve estar sempre em um estado válido antes e depois da transação.  
+
+Isolamento (Isolation): As transações não devem interferir umas nas outras.  
+
+Durabilidade (Durability): Os dados confirmados em uma transação são permanentemente armazenados.  
+
+Os comandos principais de transação são:  
+
+BEGIN TRANSACTION – Inicia uma transação.  
+
+COMMIT – Confirma as alterações no banco.  
+
+ROLLBACK – Desfaz as alterações em caso de erro.  
+
+SAVEPOINT – Define um ponto para rollback parcial dentro da transação.  
+
+Esses mecanismos garantem segurança e confiabilidade ao manipular dados em um banco relacional.  
+
+---
+# Aula 02 - 11/03/2025
+
+   **Rodando o MySql**
+   
+   - Como fazer comentários no mysql
+
+         #para comentário em uma linha
+         /*Para comentários com multiplas linhas e depois fecha com*/
+
+- meu script ficou assim:
+  
+         #conjuntos ddl
+  
+        #sintaxe - CREATE DATABASE <nome do banco de dados>; (Cria banco de dados)
+        CREATE DATABASE teste;
+  
+        #sintaxe - USE <nome do banco de dados>; (entra no banco de dado)
+        USE teste;
+        CREATE table cadastro(
+        idfunc int not null primary key,
+        nome varchar(50) not null,
+        depto char(2) not null,
+        funcao char(20),
+        filhos int,
+        salario decimal(10,2)
+        );
+  
+        #sintaxe - desc <nome da tabela>; (Verifica a estrutura da tabela)
+        desc cadastro;
+      
+# Exercício:
+ Somos uma empresa de treinamento que Ministra vários cursos de caráter técnico.
+
+Nossos cursos devem ser identificados por um código, nome, preço e devem ter também uma duração que pode variar entre 5 dias, 10 noites ou 4 sábados.
+
+Cada um de nossos instrutores estão certificados para ministrarem vários cursos, a cada semana um instrutor poderá estar alocado para um ou mais de um curso contanto que não sejam no mesmo período, para isso necessitamos armazenar um cadastro de instrutores que nos informe além de dados pessoais (código, nome, endereço e telefone), quais são os módulos que cada instrutor é certificado.
+
+Nosso departamento de confirmação entra em contato com os nossos clientes (alunos), para confirmarem suas participações nos cursos, para tanto é necessário que mantenhamos um cadastro de alunos que guarde informações pessoais (código, nome, endereço e telefone) e também quais os cursos que o aluno já fez.   
+
+- Como ficou meu script:
+
+      # Cria o banco de dados
+      CREATE DATABASE treinamento;
+      USE treinamento;
+
+      # Tabela para armazenar os cursos
+      CREATE TABLE curso (
+          codigo INT NOT NULL PRIMARY KEY,
+          nome VARCHAR(100) NOT NULL,
+          preco DECIMAL(10,2) NOT NULL,
+          duracao ENUM('5 dias', '10 noites', '4 sábados') NOT NULL
+      );
+
+      # Tabela para armazenar os instrutores
+      CREATE TABLE instrutor (
+          codigo INT NOT NULL PRIMARY KEY,
+          nome VARCHAR(100) NOT NULL,
+          endereco VARCHAR(200) NOT NULL,
+          telefone VARCHAR(20) NOT NULL
+      );
+
+      # Tabela para armazenar os módulos que o instrutor é certificado
+      CREATE TABLE instrutor_curso (
+          id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+          codigo_instrutor INT NOT NULL,
+          codigo_curso INT NOT NULL,
+          FOREIGN KEY (codigo_instrutor) REFERENCES instrutor(codigo),
+          FOREIGN KEY (codigo_curso) REFERENCES curso(codigo)
+      );
+
+      # Tabela para armazenar os alunos
+      CREATE TABLE aluno (
+          codigo INT NOT NULL PRIMARY KEY,
+          nome VARCHAR(100) NOT NULL,
+          endereco VARCHAR(200) NOT NULL,
+          telefone VARCHAR(20) NOT NULL
+      );
+
+      # Tabela para armazenar quais cursos o aluno já fez
+      CREATE TABLE aluno_curso (
+          id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+          codigo_aluno INT NOT NULL,
+          codigo_curso INT NOT NULL,
+          FOREIGN KEY (codigo_aluno) REFERENCES aluno(codigo),
+          FOREIGN KEY (codigo_curso) REFERENCES curso(codigo)
+      );
+
+      # Verifica a estrutura das tabelas
+      DESC curso;
+      DESC instrutor;
+      DESC instrutor_curso;
+      DESC aluno;
+      DESC aluno_curso;
+---
+
+# Aula 03 - 25/03/2025  
+
+O professor iniciou a aula explicando os **tipos de dados** usados em bancos de dados SQL, incluindo uma breve descrição de cada tipo e o espaço que ocupam na memória.  
+
+| **Tipo de Dado** | **Descrição** | **Tamanho Ocupado** | **Exemplo** |
+|------------------|--------------|---------------------|-------------|
+| `INT`            | Números inteiros | 4 bytes              | `100`, `-45`, `7890` |
+| `BIGINT`         | Números inteiros grandes | 8 bytes              | `9223372036854775807` |
+| `DECIMAL(p, s)`  | Números com casas decimais definidas | Varia conforme precisão | `1234.56` |
+| `FLOAT`          | Números em ponto flutuante | 4 bytes              | `123.45` |
+| `DOUBLE`         | Números em ponto flutuante de dupla precisão | 8 bytes              | `123.456789` |
+| `CHAR(n)`        | Cadeia de caracteres com tamanho fixo | `n` bytes (de 0 a 255) | `'ABC'` |
+| `VARCHAR(n)`     | Cadeia de caracteres com tamanho variável | Até `n` bytes (de 0 a 65535) | `'Olá mundo'` |
+| `TEXT`           | Texto de tamanho variável | Até 65.535 bytes (64 KB) | `'Este é um texto longo...'` |
+| `DATE`           | Data no formato `AAAA-MM-DD` | 3 bytes              | `2025-03-25` |
+| `DATETIME`        | Data e hora no formato `AAAA-MM-DD HH:MM:SS` | 8 bytes              | `2025-03-25 14:30:00` |
+| `TIMESTAMP`      | Data e hora (armazena em UTC) | 4 bytes              | `2025-03-25 14:30:00` |
+| `TIME`           | Hora no formato `HH:MM:SS` | 3 bytes              | `14:30:00` |
+| `BOOLEAN`        | Verdadeiro (`1`) ou Falso (`0`) | 1 byte               | `1` ou `0` |
+| `BLOB`           | Armazena dados binários (imagens, arquivos) | Até 65.535 bytes (64 KB) | `imagens, vídeos, arquivos` |
+
+Depois o professor deixou o tempo restante da aula para os alunos terminarem de fazer as atividades pendentes. 
+
+
