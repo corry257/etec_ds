@@ -1,5 +1,3 @@
-Me ajude a fazer esse exercicio da aula 2 por favor, a aula um já esta pronto, só preciso da aula 2
-
 Aula 01 - 18/02/025
 
  O Professor Marcio se apresentou e falou sobre a base tecnológica da disciplina  
