@@ -1,4 +1,4 @@
-Aula 01 - 18/02/025
+# Aula 01 - 18/02/025
 
  O Professor Marcio se apresentou e falou sobre a base tecnológica da disciplina  
 
@@ -169,18 +169,23 @@ SAVEPOINT – Define um ponto para rollback parcial dentro da transação.
 
 Esses mecanismos garantem segurança e confiabilidade ao manipular dados em um banco relacional.  
 
-    # Aula 02 - 11/03/2025
+---
+# Aula 02 - 11/03/2025
 
-    - Rodando o MySql
+**Rodando o MySql**
    
-    - Como fazer comentários no mysql
-      #para comentário em uma linha
-      /*Para comentários com multiplas linhas e depois fecha com*/
+   - Como fazer comentários no mysql
+     
+    #para comentário em uma linha
+    /*Para comentários com multiplas linhas e depois fecha com*/
 
 - meu script ficou assim:
+
         #conjuntos ddl
+
         #sintaxe - CREATE DATABASE <nome do banco de dados>; (Cria banco de dados)
         CREATE DATABASE teste;
+
         #sintaxe - USE <nome do banco de dados>; (entra no banco de dado)
         USE teste;
         CREATE table cadastro(
@@ -191,6 +196,7 @@ Esses mecanismos garantem segurança e confiabilidade ao manipular dados em um b
         filhos int,
         salario decimal(10,2)
         );
+
         #sintaxe - desc <nome da tabela>; (Verifica a estrutura da tabela)
         desc cadastro;
       
