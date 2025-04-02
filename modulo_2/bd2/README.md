@@ -288,4 +288,55 @@ O professor iniciou a aula explicando os **tipos de dados** usados em bancos de 
 
 Depois o professor deixou o tempo restante da aula para os alunos terminarem de fazer as atividades pendentes. 
 
+---
+
+Aula 04 - 01/04/2025
+
+Nesta aula o professor passou novos comandos do conjunto dml para ser inserido em um banco de dado de uma aula anterior anterior, o banco de dados em quiestão é o teste e a tabela cadastro.
+
+ - Como meu script ficou: 
+
+     #Conjuntos dml 
+  
+     INSERT INTO cadastro VALUES(15, 'Marcos', '2', 'analista', 2, 2184.33);
+     INSERT INTO cadastro VALUES(16, 'Andre', '2', null, 3, 2184.33);
+     INSERT INTO cadastro VALUES(108, 'ROBERTO CARLOS', '2', 'ANALISTA', 0,2000.00);
+     INSERT INTO cadastro VALUES(109, 'CARLOS AMARAL', '1', 'DBA', 1, 1500.00);
+     INSERT INTO cadastro VALUES(110, 'CARLOS GARDEL', '1', 'PROGRAMADOR', 0, 1000.00);
+     INSERT INTO cadastro VALUES(111, 'AMAURI LOPES', '2', 'DBA', 2, 2000.00);
+     INSERT INTO cadastro VALUES(112, 'MARCIO GARCIA', '2', 'DBA', 0, 2500.00);
+  
+     #Conjuntos dql
+     SELECT * FROM  cadastro;
+
+- Depois criamos um outro banco de dados para uma biblioteca, veja como ficou meu script:
+
+   CREATE DATABASE biblioteca;
+   USE biblioteca;
+
+   CREATE TABLE autor(
+     idautor INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+     nomeautor VARCHAR(50) NOT NULL,
+     nomelivro VARCHAR(40) NOT NULL
+   );
+
+   DESC autor;
+
+   #Inserção em lote 
+   INSERT INTO autor
+   VALUES 
+   (1, 'Daniel', 'Barret'),
+   (2, 'Gerald', 'Carter'),
+   (3, 'Mark', 'Sobell'),
+   (4, 'Wiççiam', 'Stanek'),
+   (5, 'Richard', 'Blum'),
+   (6, 'Jostein', 'Gaarder'),
+   (7, 'Uberto', 'Eco'),
+   (8, 'Neil', 'De Grasse Tyson'),
+   (9, 'Stephen', 'Hawking'),
+   (10, 'Stephen', 'Jay Gould'),
+   (11, 'Charles', 'Darwun'),
+   (12, 'Alan', 'Turing'),
+   (13, 'Simon', 'Monk'),
+   (14, 'Paul', 'Scherz');
 
