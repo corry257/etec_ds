@@ -47,20 +47,25 @@ Cada membro do grupo deve elaborar 8 atividades para colocar no app a cada bloco
 
 # Cronograma Detalhado
 
-| **Data**   | **Atividade**                                                                 | **Detalhes**                                               |
-|------------|-------------------------------------------------------------------------------|------------------------------------------------------------|
-| 24/03      | Definição dos requisitos                                                      | Definição dos requisitos do projeto                        |
-| 04/04      | Definição dos papéis                                                          | Definição dos papéis da equipe e organização do planner    |
-| 11/04      | Revisão dos requisitos funcionais e não funcionais                            | Revisão e ajustes dos requisitos                           |
-|            | Revisão das tecnologias                                                       | Análise das tecnologias a serem utilizadas                 |
-|            | Entrega do planner                                                            | Entrega da versão inicial do planner                       |
-| 18/04      | Não tem aula                                                                  | Data sem atividades programadas                             |
-| 25/04      | Bloco de atividade - 32 atividades                                            | Início do primeiro bloco de atividades (8 atividades por membro) |
-| 02/05      | Não tem aula                                                                  | Data sem atividades programadas                             |
-| 09/05      | Modelagem UML (Casos de uso, classe, etc.)                                   | **Prazo final para entrega**                                |
-| 16/05      | Bloco de atividade - 32 atividades                                            | Segundo bloco de atividades (8 atividades por membro)      |
-| 23/05      | Protótipo ou wireframe da aplicação                                           | **Prazo final para entrega**                               |
-| 30/05      | Finalização da documentação do pré-TCC                                        | **Prazo final para entrega**                               |
-| 06/06      | Bloco de atividade - 32 atividades                                            | Último bloco de atividades (8 atividades por membro)       |
-| 13/06      | Revisão do projeto junto com o professor                                      | pré-apresentação com o professor                           |
-| 20/06      | Apresentação do pré-tcc                                                       |comemorar a vitória                                    |
+| Posição | Data de Início | Data de Término  | Marco/Atividade                              |
+|---------|----------------|------------------|----------------------------------------------|
+| 1       | 14/03/2025     | 24/03/2025       | Definição de requisitos                      |
+| 2       | 24/03/2025     | 04/04/2025       | Definição dos papéis                         |
+| 3       | 07/04/2025     | 09/04/2025       | Sprint - Revisão dos papéis dentro do projeto|
+| 4       | 09/04/2025     | 25/04/2025       | Bloco de atividade, sprint para início da atividade |
+| 5       | 11/04/2025     | 11/04/2025       | Revisão dos requisitos, tecnologias, entrega planner |
+| 6       | 14/04/2025     | 16/04/2025       | Sprint                                       |
+| 7       | 11/04/2025     | 09/05/2025       | Modelagem de casos de uso, classe, UML, etc. |
+| 8       | 20/04/2025     | 23/05/2025       | Protótipo ou wireframe do aplicativo         |
+| 9       | 21/04/2025     | 23/04/2025       | Sprint                                       |
+| 10      | 28/04/2025     | 30/04/2025       | Sprint                                       |
+| 11      | 05/05/2025     | 07/05/2025       | Sprint                                       |
+| 12      | 12/05/2025     | 14/05/2025       | Sprint                                       |
+| 13      | 16/05/2025     | 06/06/2025       | Terceiro bloco de atividade e revisão do segundo bloco |
+| 14      | 19/05/2025     | 21/05/2025       | Sprint                                       |
+| 15      | 30/04/2025     | 16/05/2025       | Segundo bloco de atividade e revisão do primeiro |
+| 16      | 02/06/2025     | 04/06/2025       | Sprint                                       |
+| 17      | 13/06/2025     | 13/06/2025       | Revisão do projeto do pré-TCC                |
+| 18      | 14/03/2025     | 30/05/2025       | Finalização do documento do pré-TCC (início) |
+| 19      | 20/06/2025     | 20/06/2025       | Apresentação do pré-TCC                      |
+| 20      | 20/06/2025     | 20/07/2025       | Início da codificação da aplicação (primeira tela) |
