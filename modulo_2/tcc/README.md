@@ -99,14 +99,6 @@ LogicaMENTE é um programa interativo para ajudar estudantes a aprender lógica 
 
 ---
 
-## **Tecnologias Utilizadas**
-- **Frontend:** A definir
-- **Backend:** A definir
-- **Banco de Dados:** MariaDB
-- **Mobile:** React Native?
-
----
-
 ## **Equipe de Desenvolvimento**
 - **Alan Neves**
 - **Felipe Gomes**
@@ -116,11 +108,71 @@ LogicaMENTE é um programa interativo para ajudar estudantes a aprender lógica 
 
 ---
 
-## **Metodologia de Trabalho**
-- **Scrum**
-- Reuniões segunda, quarta e sexta
-
+## **Tecnologias Utilizadas**
+- **Frontend:** react 
+- **Backend:** php ou js 
+- **Banco de Dados:** MariaDB
+- **Mobile:** React Native*
 
 ---
 
-**Última atualização:** 26/03/2025
+## **Metodologia de Trabalho**
+
+**Scrum**  
+  - Sprints segunda e quarta  
+**Reuniões**  
+  - Sexta  
+
+---
+
+### Definição dos Papéis:
+- **Scrum Master**
+  - **Responsável**: Kleber Brilhante  
+  - **Auxiliar**: Felipe Gomes  
+  
+- **Front-End**:  
+  - **Responsável**:Lucas Vinicius  
+  - **Auxiliar**: Alan Neves  
+  
+- **Back-End**:  
+  - **Responsável**: Felipe Gomes  
+  - **Auxiliar**: Alan Neves  
+  
+- **Alimentação do Banco de Dados**:  
+  - **Responsável**: Kleber Brilhante  
+  - **Auxiliar**: Lucas Vinicius  
+
+---
+
+## Bloco de Atividades
+Cada membro do grupo deve elaborar 8 atividades para colocar no app a cada bloco. Serão 3 blocos a cada três semanas, começando no dia **25/04**. Os próximos blocos serão em **16/05** e **06/06**. O número total de atividades a ser criado será **96**.
+
+---
+
+# Cronograma Detalhado
+
+| Posição | Data de Início | Data de Término  | Marco/Atividade                              |
+|---------|----------------|------------------|----------------------------------------------|
+| 1       | 14/03/2025     | 24/03/2025       | Definição de requisitos                      |
+| 2       | 24/03/2025     | 04/04/2025       | Definição dos papéis                         |
+| 3       | 07/04/2025     | 09/04/2025       | Sprint - Revisão dos papéis dentro do projeto|
+| 4       | 09/04/2025     | 25/04/2025       | Bloco de atividade, sprint para início da atividade |
+| 5       | 11/04/2025     | 11/04/2025       | Revisão dos requisitos, tecnologias, entrega planner |
+| 6       | 14/04/2025     | 16/04/2025       | Sprint                                       |
+| 7       | 11/04/2025     | 09/05/2025       | Modelagem de casos de uso, classe, UML, etc. |
+| 8       | 20/04/2025     | 23/05/2025       | Protótipo ou wireframe do aplicativo         |
+| 9       | 21/04/2025     | 23/04/2025       | Sprint                                       |
+| 10      | 28/04/2025     | 30/04/2025       | Sprint                                       |
+| 11      | 05/05/2025     | 07/05/2025       | Sprint                                       |
+| 12      | 12/05/2025     | 14/05/2025       | Sprint                                       |
+| 13      | 16/05/2025     | 06/06/2025       | Terceiro bloco de atividade e revisão do segundo bloco |
+| 14      | 19/05/2025     | 21/05/2025       | Sprint                                       |
+| 15      | 30/04/2025     | 16/05/2025       | Segundo bloco de atividade e revisão do primeiro |
+| 16      | 02/06/2025     | 04/06/2025       | Sprint                                       |
+| 17      | 13/06/2025     | 13/06/2025       | Revisão do projeto do pré-TCC                |
+| 18      | 14/03/2025     | 30/05/2025       | Finalização do documento do pré-TCC (início) |
+| 19      | 20/06/2025     | 20/06/2025       | Apresentação do pré-TCC                      |
+| 20      | 20/06/2025     | 20/07/2025       | Início da codificação da aplicação (primeira tela) |
+
+
+**Última atualização:** 11/04/2025
