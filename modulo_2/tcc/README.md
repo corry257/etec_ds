@@ -175,4 +175,4 @@ Cada membro do grupo deve elaborar 8 atividades para colocar no app a cada bloco
 | 20      | 20/06/2025     | 20/07/2025       | Início da codificação da aplicação (primeira tela) |
 
 
-**Última atualização:** 11/04/2025
+**Última atualização:** 24/04/2025
